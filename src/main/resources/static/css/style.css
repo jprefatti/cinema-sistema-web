@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+header nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0066cc;
+}
+h1, h2, h3 {
+  margin-top: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+input, textarea, button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+button {
+  width: auto;
+}

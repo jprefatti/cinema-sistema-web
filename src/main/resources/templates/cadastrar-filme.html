@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalhes do Filme</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h1>Detalhes do Filme</h1>
+  <section id="info-filme">
+    <h2>Título do Filme</h2>
+    <p>Sinopse do filme exibida aqui.</p>
+  </section>
+  <section id="analises">
+    <h2>Análises</h2>
+    <div class="analise-item">
+      <p>Comentário de exemplo <strong>(5)</strong></p>
+    </div>
+  </section>
+
+  <h3>Nova Análise</h3>
+  <form id="analiseForm" novalidate>
+    <label for="comentario">Comentário:</label>
+    <textarea id="comentario" name="comentario" required minlength="5"></textarea>
+    <span class="error" id="erro-comentario"></span>
+
+    <label for="nota">Nota (1-5):</label>
+    <input type="number" id="nota" name="nota" required min="1" max="5">
+    <span class="error" id="erro-nota"></span>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <a href="index.html">Voltar</a>
+  <script src="../js/validation.js"></script>
+</body>
+</html>
